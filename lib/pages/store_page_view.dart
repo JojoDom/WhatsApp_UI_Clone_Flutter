@@ -26,8 +26,8 @@ class StoryPageView extends StatelessWidget {
         storyItems: storyItems,
         controller: controller,
         inline: false,
-        repeat: true,
-       // onVerticalSwipeComplete 
+        repeat: false,
+       onComplete : (){ Navigator.pop(context);}
       ),
     );
   }
