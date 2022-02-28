@@ -102,15 +102,15 @@ class StatusScreen extends StatelessWidget {
              mainAxisAlignment: MainAxisAlignment.end,
              children : [
                  FloatingActionButton(
-              backgroundColor: Colors.white10,
+              backgroundColor: Colors.white,
               heroTag: null,
               child: const Icon(
-                Icons.edit,
-                color: Colors.white,
+                Icons.mode_edit_sharp,
+                color: Colors.grey,
               ),
               onPressed: () {},
             ),
-            const SizedBox(height:5.0),
+            const SizedBox(height:18.0),
 
              FloatingActionButton(
               backgroundColor: const Color(0xff128C7E),

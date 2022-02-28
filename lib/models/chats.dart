@@ -10,7 +10,7 @@ class Chats{
 List<Chats>dummyData = [
   Chats(
     name : "Aaliyah",
-    message: "Jesus is loves you",
+    message: "Jesus  loves you",
     time: "9:54 PM",
     image: "assets/images/Image_1.jpg"
   ),
